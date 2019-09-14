@@ -85,7 +85,7 @@ else
   for i in "${exp[@]}"
   do
     sed -i $i $ijCfPath
-    sed -i $i $ijCfPath
+    sed -i $i $ijMPath
   done
 fi
 
