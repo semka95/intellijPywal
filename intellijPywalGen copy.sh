@@ -48,45 +48,56 @@ ijMPath=$ijConfigPath/options/material_custom_theme.xml
 cp -f $templatePath $ijCfPath
 cp -f $materialTPath $ijMPath
 
-######################
-## RLovelessIII WIP ##
-######################
-
 # Replace placeholders for colors
-exp0=s/leTXT/$txtColor/g
-exp1=s/leBG/$bgColor/g
+exp=s/leTXT/$txtColor/g
+sed -i '' $exp $ijCfPath
+sed -i '' $exp $ijMPath
+
+exp=s/leBG/$bgColor/g
+sed -i '' $exp $ijCfPath
+sed -i '' $exp $ijMPath
 
 # Selection/Highlight colors
-exp2=s/leSFG/$sfgColor/g
-exp3=s/leSBG/$sbgColor/g
-exp4=s/leCROW/$caretRowColor/g
-exp5=s/leLN/$lnColor/g
-exp6=s/leFG/$fgColor/g
-exp7=s/leBG2/$bg2Color/g
-exp8=s/leContrast/$contrastColor/g
-exp9=s/leSBC/$sbColor/g
-exp10=s/leTree/$treeColor/g
-exp11=s/leDisabled/$disabledColor/g
-exp12=s/leActive/$activeColor/g
+exp=s/leSFG/$sfgColor/g
+sed -i '' $exp $ijCfPath
+sed -i '' $exp $ijMPath
 
-exp=( $exp0 $exp1 $exp2 $exp3 $exp4 $exp5 $exp6 $exp7 $exp8 $exp9 $exp10 $exp11 $exp12 )
+exp=s/leSBG/$sbgColor/g
+sed -i '' $exp $ijCfPath
+sed -i '' $exp $ijMPath
 
-# Get current OS
-OS=$(uname);
+exp=s/leCROW/$caretRowColor/g
+sed -i '' $exp $ijCfPath
+sed -i '' $exp $ijMPath
 
+exp=s/leLN/$lnColor/g
+sed -i '' $exp $ijCfPath
+sed -i '' $exp $ijMPath
 
-if [ ${OS} == 'Darwin' ]; then
-  for i in "${exp[@]}"
-  do 
-    sed -i '' $i $ijCfPath
-    sed -i '' $i $ijMPath
-  done
-else
-  for i in "${exp[@]}"
-  do
-    sed -i $i $ijCfPath
-    sed -i $i $ijCfPath
-  done
-fi
+exp=s/leFG/$fgColor/g
+sed -i '' $exp $ijCfPath
+sed -i '' $exp $ijMPath
 
-exit 0
+exp=s/leBG2/$bg2Color/g
+sed -i '' $exp $ijCfPath
+sed -i '' $exp $ijMPath
+
+exp=s/leContrast/$contrastColor/g
+sed -i '' $exp $ijCfPath
+sed -i '' $exp $ijMPath
+
+exp=s/leSBC/$sbColor/g
+sed -i '' $exp $ijCfPath
+sed -i '' $exp $ijMPath
+
+exp=s/leTree/$treeColor/g
+sed -i '' $exp $ijCfPath
+sed -i '' $exp $ijMPath
+
+exp=s/leDisabled/$disabledColor/g
+sed -i '' $exp $ijCfPath
+sed -i '' $exp $ijMPath
+
+exp=s/leActive/$activeColor/g
+sed -i '' $exp $ijCfPath
+sed -i '' $exp $ijMPath
