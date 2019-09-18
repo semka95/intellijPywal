@@ -18,7 +18,7 @@ fi
 
 for i in "${!IDE[@]}"
   do
-    ide_config_dir=$(find "${config_dir}" -name "${IDE[$i]}*")
+    ide_config_dir=$(find "${config_dir}" -maxdepth 1 -type d -name "\.${IDE[$i]}*")
     echo ${ide_config_dir}
   done
 
