@@ -15,7 +15,8 @@ if [ "${OS}" == "Darwin" ]; then
   for i in "${IDE[@]}"
     do
       ide_name="$i"
-      ide_conf_dir+=$(find "${usr_conf_dir}" -maxdepth 1 -type d -name "${ide_name}*")
+      ide_dir=$(find "${usr_conf_dir}" -maxdepth 1 -type d -name "${ide_name}*")
+      ide_conf_dir+=( "${ide_dir}" )
     done
 elif [ "${OS}" == "Linux" ]; then
   usr_conf_dir="${HOME}"
@@ -27,9 +28,12 @@ elif [ "${OS}" == "Linux" ]; then
     done
 fi
 
+# Get current directory
+DIR=$(dirname "$0")
+
 for i in "${ide_conf_dir[@]}"
   do
-    echo "\$intellij_script $i"
+    echo "${DIR}/intelliJPywalGen.sh" "$i";
   done
 
 exit 0
