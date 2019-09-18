@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-# value=\"(\K[a-f0-9]{6})
-# (?sm)(^[^\r\n]+$)(?!.*^\1$)
 
 # Attempts to retrieve wals colors
 cache_dir="${HOME}/.cache/wal"
@@ -69,7 +67,7 @@ if [ "${OS}" == 'Darwin' ]; then
     sed -i '' "$text_replace" "$ijCfPath"
     sed -i '' "$text_replace" "$ijMPath"
   done
-else
+elif [ "${OS}" == "Linux" ]; then
   for key in "${!exp[@]}"
   do
     text_replace="s/$key/${exp[$key]}/g"
