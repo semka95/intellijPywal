@@ -2,7 +2,7 @@
 
 ## intelliJPywal/lanuch.sh
 ## author: Richard Loveless III (RLovelessIII)
-## description: lanuch script for IntelliJPywal
+## description: launch script for IntelliJPywal
 
 # Supported IDE's
 IDE=( "IntelliJIdea" "PyCharm" "WebStorm" )
@@ -11,15 +11,25 @@ IDE=( "IntelliJIdea" "PyCharm" "WebStorm" )
 OS=$(uname)
 
 if [ "${OS}" == "Darwin" ]; then
-  config_dir="${HOME}"/Library/Preferences
+  usr_conf_dir="${HOME}/Library/Preferences"
+  for i in "${IDE[@]}"
+    do
+      ide_name="$i"
+      ide_conf_dir+=$(find "${usr_conf_dir}" -maxdepth 1 -type d -name "${ide_name}*")
+    done
 elif [ "${OS}" == "Linux" ]; then
-  config_dir="${HOME}"
+  usr_conf_dir="${HOME}"
+  for i in "${IDE[@]}"
+    do
+      ide_name=".$i"  
+      ide_dir=$(find "${usr_conf_dir}" -maxdepth 1 -type d -name "${ide_name}*")
+      ide_conf_dir+=( "${ide_dir}/config" ) 
+    done
 fi
 
-for i in "${!IDE[@]}"
+for i in "${ide_conf_dir[@]}"
   do
-    ide_config_dir=$(find "${config_dir}" -maxdepth 1 -type d -name "\.${IDE[$i]}*")
-    echo ${ide_config_dir}
+    echo "\$intellij_script $i"
   done
 
 exit 0
