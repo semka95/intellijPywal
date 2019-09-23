@@ -8,41 +8,37 @@ c=($(< "${cache_dir}/colors"))
 c=("${c[@]//\#}")
 
 # Set colors based on pywal
-txtColor=${c[15]}
-bgColor=${c[0]}
-sbgColor=${c[1]}
-sfgColor=${c[0]}
-caretRowColor=${sfgColor}
-lnColor=${c[1]}
-fgColor=${c[15]}
-bg2Color=${c[1]}
-contrastColor=${c[1]}
-sbColor=${c[1]}
-treeColor=${c[15]}
-disabledColor=${c[15]}
-activeColor=${c[2]}
+backgroundColor=${c[0]}
+foregroundColor=${c[7]}
+accentColor1=${c[1]}
+accentColor2=${c[4]}
+
+caretRowColor=${c[0]} # 0
+lnColor=${c[0]} # 1
 
 # Associative array for text replacement in template files
 declare -A exp=( \
-["leTXT"]="${txtColor}" \
-["leBG"]="${bgColor}" \
-["leSFG"]="${sfgColor}" \
-["leSBG"]="${sbgColor}" \
+["leBG"]="${backgroundColor}" \
+["leFG"]="${foregroundColor}" \
+["leTXT"]="${foregroundColor}" \
+["leSFG"]="${accentColor2}" \
+["leSBG"]="${backgroundColor}" \
+["leActive"]="${accentColor1}" \
+["leBG2"]="${backgroundColor}" \
+["leDisabled"]="${foregroundColor}" \
+["leContrast"]="${accentColor1}" \
+["leTblSel"]="${backgroundColor}" \
+["leSBC"]="${accentColor1}" \
+["leTree"]="${backgroundColor}" \
+["leAccent"]="${accentColor2}" \
 ["leCROW"]="${caretRowColor}" \
-["leLN"]="${lnColor}" \
-["leFG"]="${fgColor}" \
-["leBG2"]="${bg2Color}" \
-["leContrast"]="${contrastColor}" \
-["leSBC"]="${sbColor}" \
-["leTree"]="${treeColor}" \
-["leDisabled"]="${disabledColor}" \
-["leActive"]="${activeColor}" )
+["leLN"]="${lnColor}" )
 
 # Get current Directory
 DIR=$(dirname "$0")
 
 # Paths to templates
-templatePath=${DIR}/material_scheme_template.xml
+templatePath=${DIR}/material_scheme_template_temp.xml
 materialTPath=${DIR}/material_template.xml
 
 # Read input param
