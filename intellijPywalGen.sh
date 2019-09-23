@@ -10,8 +10,9 @@ c=("${c[@]//\#}")
 # Set colors based on pywal
 backgroundColor=${c[0]}
 foregroundColor=${c[7]}
-accentColor1=${c[1]}
-accentColor2=${c[4]}
+baseColor=${c[1]}
+contrastColor=${c[6]}
+accentColor=${c[4]}
 
 caretRowColor=${c[0]} # 0
 lnColor=${c[0]} # 1
@@ -21,16 +22,16 @@ declare -A exp=( \
 ["leBG"]="${backgroundColor}" \
 ["leFG"]="${foregroundColor}" \
 ["leTXT"]="${foregroundColor}" \
-["leSFG"]="${accentColor2}" \
+["leSFG"]="${baseColor}" \
 ["leSBG"]="${backgroundColor}" \
-["leActive"]="${accentColor1}" \
-["leBG2"]="${backgroundColor}" \
+["leActive"]="${baseColor}" \
+["leBG2"]="${baseColor}" \
 ["leDisabled"]="${foregroundColor}" \
-["leContrast"]="${accentColor1}" \
+["leContrast"]="${contrastColor}" \
 ["leTblSel"]="${backgroundColor}" \
-["leSBC"]="${accentColor1}" \
+["leSBC"]="${baseColor}" \
 ["leTree"]="${backgroundColor}" \
-["leAccent"]="${accentColor2}" \
+["leAccent"]="${accentColor}" \
 ["leCROW"]="${caretRowColor}" \
 ["leLN"]="${lnColor}" )
 
