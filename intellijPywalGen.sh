@@ -9,12 +9,11 @@ c=("${c[@]//\#}")
 
 # Set colors based on pywal
 backgroundColor=${c[0]}
-foregroundColor=${c[7]}
+foregroundColor=${c[15]}
 baseColor=${c[1]}
 contrastColor=${c[6]}
 accentColor=${c[4]}
 
-caretRowColor=${c[0]} # 0
 lnColor=${c[0]} # 1
 
 # Associative array for text replacement in template files
@@ -28,12 +27,16 @@ declare -A exp=( \
 ["leBG2"]="${baseColor}" \
 ["leDisabled"]="${foregroundColor}" \
 ["leContrast"]="${contrastColor}" \
-["leTblSel"]="${backgroundColor}" \
+["leTblSel"]="${contrastColor}" \
 ["leSBC"]="${baseColor}" \
 ["leTree"]="${backgroundColor}" \
 ["leAccent"]="${accentColor}" \
-["leCROW"]="${caretRowColor}" \
-["leLN"]="${lnColor}" )
+["leCaret"]="${contrastColor}"
+["leCROW"]="${backgroundColor}" \
+["leLN"]="${contrastColor}" \
+["leLN2"]="${accentColor}" )
+
+
 
 # Get current Directory
 DIR=$(dirname "$0")
