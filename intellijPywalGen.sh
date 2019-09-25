@@ -14,20 +14,18 @@ baseColor=${c[1]}
 contrastColor=${c[6]}
 accentColor=${c[4]}
 
-lnColor=${c[0]} # 1
-
 # Associative array for text replacement in template files
 declare -A exp=( \
 ["leBG"]="${backgroundColor}" \
 ["leFG"]="${foregroundColor}" \
 ["leTXT"]="${foregroundColor}" \
-["leSFG"]="${baseColor}" \
+["leSFG"]="${contrastColor}" \
 ["leSBG"]="${backgroundColor}" \
 ["leActive"]="${baseColor}" \
 ["leBG2"]="${baseColor}" \
 ["leDisabled"]="${foregroundColor}" \
 ["leContrast"]="${contrastColor}" \
-["leTblSel"]="${contrastColor}" \
+["leTblSel"]="${baseColor}" \
 ["leSBC"]="${baseColor}" \
 ["leTree"]="${backgroundColor}" \
 ["leAccent"]="${accentColor}" \
