@@ -28,6 +28,7 @@ declare -A exp=( \
 ["leTblSel"]="${baseColor}" \
 ["leSBC"]="${baseColor}" \
 ["leTree"]="${backgroundColor}" \
+["leNotification"]="${baseColor}"
 ["leAccent"]="${accentColor}" \
 ["leCaret"]="${contrastColor}"
 ["leCROW"]="${backgroundColor}" \

@@ -13,7 +13,7 @@
     <option name="tableSelectedColor" value="leTblSel" />
     <option name="secondBorderColor" value="leSBC" />
     <option name="treeSelectionColor" value="leTree" />
-    <option name="notificationsColor" value="323232ff" />
+    <option name="notificationsColor" value="leNotification" />
     <option name="accentColor" value="leAccent" />
     <option name="excludedColor" value="2e3c43ff" />
   </component>
