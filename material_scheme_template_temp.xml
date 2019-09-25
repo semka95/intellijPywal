@@ -59,7 +59,7 @@
     <option name="INFORMATION_HINT" value="leBG" />
     <option name="LINE_NUMBERS_COLOR" value="leLN" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="leLN" />
-    <option name="METHOD_SEPARATORS_COLOR" value="00ff00" />
+    <option name="METHOD_SEPARATORS_COLOR" value="leLN" />
     <option name="MODIFIED_LINES_COLOR" value="ffcb6b" />
     <option name="MT_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
     <option name="MT_SUPPRESSED" value="leFG" />
