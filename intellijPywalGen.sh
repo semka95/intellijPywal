@@ -41,7 +41,7 @@ declare -A exp=( \
 DIR=$(dirname "$0")
 
 # Paths to templates
-templatePath=${DIR}/material_scheme_template_temp.xml
+templatePath=${DIR}/material_scheme_template.xml
 materialTPath=${DIR}/material_template.xml
 
 # Read input param
