@@ -33,7 +33,9 @@ declare -A exp=( \
 ["leCaret"]="${contrastColor}"
 ["leCROW"]="${backgroundColor}" \
 ["leLN"]="${contrastColor}" \
-["leLN2"]="${accentColor}" )
+["leLN2"]="${accentColor}" \
+["leVCSNC"]="999999" \
+)
 
 
 
