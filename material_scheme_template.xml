@@ -99,7 +99,7 @@
     <option name="ScrollBar.thumbColor" value="leContrastc0" />
     <option name="ScrollBar.trackColor" value="leBG" />
     <option name="TEARLINE_COLOR" value="leLN2" />
-    <option name="TOOLTIP" value="leBG2" />
+    <option name="TOOLTIP" value="leBG" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="leBG" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="leLN2" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="616161" />
