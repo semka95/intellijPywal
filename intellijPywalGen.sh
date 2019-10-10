@@ -16,9 +16,10 @@ contrastColor=${c[3]}
 accentColor=${c[4]}
 
 # Editor colors
-tagColor=${c[7]}
 attributeColor=${c[5]}
 stringColor=${c[6]}
+tagColor=${c[7]}
+paramColor=${c[8]}
 
 # Associative array for text replacement in template files
 declare -A exp=( \
@@ -43,6 +44,7 @@ declare -A exp=( \
 ["leString"]="${stringColor}" \
 ["leAttribute"]="${attributeColor}" \
 ["leTag"]="${tagColor}" \
+["leParam"]="${paramColor}" \
 ["leVCSNC"]="999999" \
 )
 
