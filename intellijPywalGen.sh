@@ -14,6 +14,7 @@ primaryColor=${c[1]}
 secondaryColor=${c[2]}
 contrastColor=${c[3]}
 accentColor=${c[4]}
+stringColor=${c[5]}
 
 # Associative array for text replacement in template files
 declare -A exp=( \
@@ -35,6 +36,7 @@ declare -A exp=( \
 ["leCROW"]="${backgroundColor}" \
 ["leLN"]="${contrastColor}" \
 ["leLN2"]="${accentColor}" \
+["leString"]="${stringColor}"
 ["leVCSNC"]="999999" \
 )
 

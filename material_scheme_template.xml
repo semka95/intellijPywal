@@ -26,7 +26,7 @@
   </console-font>
   <option name="CONSOLE_LINE_SPACING" value="1.6" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="c3e88d" />
+    <option name="ADDED_LINES_COLOR" value="leString" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
     <option name="CARET_COLOR" value="leCaret" />
     <option name="CARET_ROW_COLOR" value="leBG" />
@@ -43,7 +43,7 @@
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="c3e88d" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="leString" />
     <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
     <option name="FILESTATUS_MERGED" value="65738e" />
     <option name="FILESTATUS_MODIFIED" value="80cbc4" />
@@ -112,7 +112,7 @@
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
@@ -127,7 +127,7 @@
     </option>
     <option name="Abstract class name">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="Annotation">
@@ -429,7 +429,7 @@
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -503,7 +503,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -594,7 +594,7 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -795,7 +795,7 @@
     </option>
     <option name="HOCON_MULTILINE_STRING">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="HOCON_NULL">
@@ -821,7 +821,7 @@
     </option>
     <option name="HOCON_QUOTED_STRING">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="HOCON_SUBSTITUTION_BRACES">
@@ -862,7 +862,7 @@
     </option>
     <option name="HTTP_REQUEST_INPUT_FILE">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="HTTP_REQUEST_PARAMETER_NAME">
@@ -872,7 +872,7 @@
     </option>
     <option name="HTTP_REQUEST_PARAMETER_VALUE">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="HTTP_REQUEST_PORT">
@@ -951,7 +951,7 @@
     </option>
     <option name="INFO_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="c3e88d" />
+        <option name="EFFECT_COLOR" value="leString" />
         <option name="ERROR_STRIPE_COLOR" value="aeae80" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -1157,7 +1157,7 @@
     </option>
     <option name="LOG_VERBOSE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="LOG_WARNING_OUTPUT">
@@ -1293,37 +1293,37 @@
     </option>
     <option name="MARKDOWN_HEADER_LEVEL_1">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="MARKDOWN_HEADER_LEVEL_2">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="MARKDOWN_HEADER_LEVEL_3">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="MARKDOWN_HEADER_LEVEL_4">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="MARKDOWN_HEADER_LEVEL_5">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="MARKDOWN_HEADER_LEVEL_6">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
@@ -1430,7 +1430,7 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.ATX_HEADER">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.BOLD">
@@ -2097,12 +2097,12 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.TASK_DONE_ITEM_MARKER">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TASK_ITEM_MARKER">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.TEXT">
@@ -2134,7 +2134,7 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.WIKI_LINK_TEXT">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="MARKDOWN_STRIKE_THROUGH">
@@ -2189,7 +2189,7 @@
     </option>
     <option name="OC.GENERIC_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="OC.IVAR">
@@ -2231,7 +2231,7 @@
     </option>
     <option name="OC.PROTOCOL_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2262,7 +2262,7 @@
     </option>
     <option name="OC.TYPEDEF">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="PHP_CONCATENATION">
@@ -2310,7 +2310,7 @@
     </option>
     <option name="PY.STRING">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="QL_PARAMETER">
@@ -2325,7 +2325,7 @@
     </option>
     <option name="RDOC_EMAIL">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="RDOC_HEADINGS">
@@ -2454,7 +2454,7 @@
     </option>
     <option name="ReSharper.ASP_NET_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_COMMENT">
@@ -2494,7 +2494,7 @@
     </option>
     <option name="ReSharper.ASP_NET_MVC_VIEW">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -2512,7 +2512,7 @@
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK">
@@ -2556,7 +2556,7 @@
     </option>
     <option name="ReSharper.CPP_ENUM_ENUMERATOR_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="ReSharper.CPP_PREPROCESSOR_MACRO_IDENTIFIER">
@@ -2627,7 +2627,7 @@
     </option>
     <option name="ReSharper.TYPE_PARAMETER_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2703,7 +2703,7 @@
     </option>
     <option name="Scala Abstract class">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="Scala Mutable Collection">
@@ -2720,7 +2720,7 @@
     </option>
     <option name="Scala Predefined types">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="Scala Type Alias" baseAttributes="" />
@@ -2858,7 +2858,7 @@
     </option>
     <option name="org.elm.TYPE">
       <value>
-        <option name="FOREGROUND" value="c3e88d" />
+        <option name="FOREGROUND" value="leString" />
       </value>
     </option>
     <option name="org.elm.TYPE_ANNOTATION_SIGNATURE_TYPES">
