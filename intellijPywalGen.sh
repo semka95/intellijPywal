@@ -16,9 +16,9 @@ contrastColor=${c[3]}
 accentColor=${c[4]}
 
 # Editor colors
-attributeColor=${c[5]}
-stringColor=${c[6]}
-tagColor=${c[7]}
+attributeColor=${c[7]}
+stringColor=${c[5]}
+tagColor=${c[6]}
 paramColor=${c[8]}
 
 # Associative array for text replacement in template files
@@ -45,7 +45,7 @@ declare -A exp=( \
 ["leAttribute"]="${attributeColor}" \
 ["leTag"]="${tagColor}" \
 ["leParam"]="${paramColor}" \
-["leVCSNC"]="999999" \
+["leVCSNC"]="cccccc" \
 )
 
 # Get current Directory
