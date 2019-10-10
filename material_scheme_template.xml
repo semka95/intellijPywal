@@ -37,7 +37,7 @@
     <option name="DOCUMENTATION_COLOR" value="leBG" />
     <option name="FILESTATUS_ADDED" value="80cbc4" />
     <option name="FILESTATUS_DELETED" value="f77669" />
-    <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
+    <option name="FILESTATUS_HIJACKED" value="leAttribute" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="f77669" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="546e7a" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="" />
@@ -60,7 +60,7 @@
     <option name="LINE_NUMBERS_COLOR" value="leLN" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="leLN" />
     <option name="METHOD_SEPARATORS_COLOR" value="leLN" />
-    <option name="MODIFIED_LINES_COLOR" value="ffcb6b" />
+    <option name="MODIFIED_LINES_COLOR" value="leAttribute" />
     <option name="MT_IGNORE.PROJECT_VIEW.IGNORED" value="ab7967" />
     <option name="MT_SUPPRESSED" value="leFG" />
     <option name="NOTIFICATION_BACKGROUND" value="leBG" />
@@ -212,7 +212,7 @@
     </option>
     <option name="CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="CLASS_REFERENCE">
@@ -232,7 +232,7 @@
     </option>
     <option name="COFFEESCRIPT.CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="COFFEESCRIPT.GLOBAL_VARIABLE" baseAttributes="JS.GLOBAL_VARIABLE" />
@@ -308,7 +308,7 @@
     </option>
     <option name="CSS.CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -329,7 +329,7 @@
     </option>
     <option name="CSS.IDENT">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="CSS.IMPORTANT">
@@ -402,7 +402,7 @@
     </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -424,7 +424,7 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
@@ -701,7 +701,7 @@
     </option>
     <option name="HAML_CLASS">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -867,7 +867,7 @@
     </option>
     <option name="HTTP_REQUEST_PARAMETER_NAME">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="HTTP_REQUEST_PARAMETER_VALUE">
@@ -939,7 +939,7 @@
     </option>
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
@@ -1017,7 +1017,7 @@
     </option>
     <option name="JS.CONSOLE">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="JS.DEBUGGER_STMT">
@@ -1162,7 +1162,7 @@
     </option>
     <option name="LOG_WARNING_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="MACRONAME">
@@ -1367,7 +1367,7 @@
     </option>
     <option name="MARKDOWN_LINK_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="MARKDOWN_LINK_DESTINATION">
@@ -1377,7 +1377,7 @@
     </option>
     <option name="MARKDOWN_LINK_LABEL">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="MARKDOWN_LINK_TEXT">
@@ -1399,7 +1399,7 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.ABBREVIATED_TEXT">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.ABBREVIATION">
@@ -1419,12 +1419,12 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.ANCHOR_ID">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -1471,7 +1471,7 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.DEFINITION_TERM">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.EMOJI_ID">
@@ -1481,7 +1481,7 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.EMOJI_MARKER">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.FOOTNOTE_ID">
@@ -1491,9 +1491,9 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.HEADER_TEXT">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="ffcb6b" />
+        <option name="EFFECT_COLOR" value="leAttribute" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1536,7 +1536,7 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.REFERENCE_TEXT">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.REFERENCE_TITLE">
@@ -2110,7 +2110,7 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.TOC">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
@@ -2176,7 +2176,7 @@
     </option>
     <option name="OC.CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="OC.CONDITIONALLY_NOT_COMPILED">
@@ -2199,7 +2199,7 @@
     </option>
     <option name="OC.MACRONAME">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -2247,12 +2247,12 @@
     </option>
     <option name="OC.STRUCT_LIKE">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="OC.TEMPLATE_TYPE">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="OC.TEMPLATE_VALUE">
@@ -2293,7 +2293,7 @@
     </option>
     <option name="PY.ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="PY.BUILTIN_NAME" baseAttributes="" />
@@ -2330,7 +2330,7 @@
     </option>
     <option name="RDOC_HEADINGS">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="RDOC_IDENTIFIER">
@@ -2415,7 +2415,7 @@
     </option>
     <option name="RUBY_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="RUBY_HEREDOC_ID">
@@ -2448,7 +2448,7 @@
     </option>
     <option name="ReSharper.ASP_NET_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2488,7 +2488,7 @@
     </option>
     <option name="ReSharper.ASP_NET_MVC_CONTROLLER">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -2506,7 +2506,7 @@
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2614,14 +2614,14 @@
     </option>
     <option name="ReSharper.STATIC_CLASS_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="ReSharper.STRUCT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
-        <option name="EFFECT_COLOR" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
+        <option name="EFFECT_COLOR" value="leAttribute" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -2646,7 +2646,7 @@
     </option>
     <option name="SLIM_CLASS">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2663,7 +2663,7 @@
     </option>
     <option name="SLIM_TAG_ATTR_KEY">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2686,7 +2686,7 @@
     </option>
     <option name="SPEL.QUALIFIED_TYPE">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="SQUIGGLY_BRACKETS_RAINBOW_COLOR0">
@@ -2715,7 +2715,7 @@
     </option>
     <option name="Scala Object">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="Scala Predefined types">
@@ -2727,7 +2727,7 @@
     <option name="Scala Type parameter" baseAttributes="" />
     <option name="StandardF Java Collection">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="Static method access" baseAttributes="" />
@@ -2760,7 +2760,7 @@
     </option>
     <option name="TS.TYPE_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="TWIG_BACKGROUND">
@@ -2800,8 +2800,8 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="ffcb6b" />
-        <option name="ERROR_STRIPE_COLOR" value="ffcb6b" />
+        <option name="EFFECT_COLOR" value="leAttribute" />
+        <option name="ERROR_STRIPE_COLOR" value="leAttribute" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -2863,12 +2863,12 @@
     </option>
     <option name="org.elm.TYPE_ANNOTATION_SIGNATURE_TYPES">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
       </value>
     </option>
     <option name="org.rust.LIFETIME">
       <value>
-        <option name="FOREGROUND" value="ffcb6b" />
+        <option name="FOREGROUND" value="leAttribute" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
