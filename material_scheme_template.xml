@@ -31,7 +31,7 @@
     <option name="CARET_COLOR" value="leCaret" />
     <option name="CARET_ROW_COLOR" value="leBG" />
     <option name="CONSOLE_BACKGROUND_KEY" value="leBG" />
-    <option name="DELETED_LINES_COLOR" value="f07178" />
+    <option name="DELETED_LINES_COLOR" value="leTag" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="171717" />
     <option name="DOCUMENTATION_COLOR" value="leBG" />
@@ -357,7 +357,7 @@
     </option>
     <option name="CSS.TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
       </value>
     </option>
     <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
@@ -599,7 +599,7 @@
     </option>
     <option name="DEFAULT_TAG">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
       </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
@@ -724,7 +724,7 @@
     </option>
     <option name="HAML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -857,7 +857,7 @@
     </option>
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
       </value>
     </option>
     <option name="HTTP_REQUEST_INPUT_FILE">
@@ -1261,7 +1261,7 @@
     </option>
     <option name="MARKDOWN_BOLD">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -1350,13 +1350,13 @@
     </option>
     <option name="MARKDOWN_INLINE_HTML">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="MARKDOWN_ITALIC">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -1382,7 +1382,7 @@
     </option>
     <option name="MARKDOWN_LINK_TEXT">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1435,13 +1435,13 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.BOLD">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.BOLD_TEXT_CODE_TEXT">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="FONT_TYPE" value="1" />
       </value>
@@ -1518,13 +1518,13 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.ITALIC">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.ITALIC_TEXT_CODE_TEXT">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="FONT_TYPE" value="2" />
       </value>
@@ -1552,8 +1552,8 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.STRIKETHROUGH">
       <value>
-        <option name="FOREGROUND" value="f07178" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1561,7 +1561,7 @@
       <value>
         <option name="FOREGROUND" value="e3777e" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1570,7 +1570,7 @@
         <option name="FOREGROUND" value="e3777e" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1578,7 +1578,7 @@
       <value>
         <option name="FOREGROUND" value="d87a81" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1587,15 +1587,15 @@
         <option name="FOREGROUND" value="d87a81" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.STRIKETHROUGH_TEXT_CODE_TEXT">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
         <option name="BACKGROUND" value="2b2b2b" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1603,7 +1603,7 @@
       <value>
         <option name="FOREGROUND" value="e3777e" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1612,21 +1612,21 @@
         <option name="FOREGROUND" value="e3777e" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.SUBSCRIPT">
       <value>
-        <option name="FOREGROUND" value="f07178" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.SUPERSCRIPT">
       <value>
-        <option name="FOREGROUND" value="f07178" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
@@ -1671,7 +1671,7 @@
       <value>
         <option name="FOREGROUND" value="e2787f" />
         <option name="BACKGROUND" value="2b2b2b" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1680,7 +1680,7 @@
         <option name="FOREGROUND" value="d67e84" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1689,7 +1689,7 @@
         <option name="FOREGROUND" value="cc8188" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1698,7 +1698,7 @@
         <option name="FOREGROUND" value="d67e84" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1733,7 +1733,7 @@
       <value>
         <option name="FOREGROUND" value="e2787f" />
         <option name="BACKGROUND" value="2b2b2b" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1742,7 +1742,7 @@
         <option name="FOREGROUND" value="d67e84" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1751,7 +1751,7 @@
         <option name="FOREGROUND" value="cc8188" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1760,7 +1760,7 @@
         <option name="FOREGROUND" value="d67e84" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1790,7 +1790,7 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CEVEN_STRIKETHROUGH_TEXT">
       <value>
         <option name="FOREGROUND" value="e2787f" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1798,7 +1798,7 @@
       <value>
         <option name="FOREGROUND" value="d67e84" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1806,7 +1806,7 @@
       <value>
         <option name="FOREGROUND" value="cc8188" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1814,7 +1814,7 @@
       <value>
         <option name="FOREGROUND" value="d67e84" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1844,7 +1844,7 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CODD_STRIKETHROUGH_TEXT">
       <value>
         <option name="FOREGROUND" value="e2787f" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1852,7 +1852,7 @@
       <value>
         <option name="FOREGROUND" value="d67e84" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1860,7 +1860,7 @@
       <value>
         <option name="FOREGROUND" value="cc8188" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1868,7 +1868,7 @@
       <value>
         <option name="FOREGROUND" value="d67e84" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1897,7 +1897,7 @@
       <value>
         <option name="FOREGROUND" value="e2787f" />
         <option name="BACKGROUND" value="2b2b2b" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1906,7 +1906,7 @@
         <option name="FOREGROUND" value="d67e84" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1915,7 +1915,7 @@
         <option name="FOREGROUND" value="cc8188" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1924,7 +1924,7 @@
         <option name="FOREGROUND" value="d67e84" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1953,7 +1953,7 @@
       <value>
         <option name="FOREGROUND" value="e2787f" />
         <option name="BACKGROUND" value="2b2b2b" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1962,7 +1962,7 @@
         <option name="FOREGROUND" value="d67e84" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1971,7 +1971,7 @@
         <option name="FOREGROUND" value="cc8188" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -1980,7 +1980,7 @@
         <option name="FOREGROUND" value="d67e84" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -2005,7 +2005,7 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CEVEN_STRIKETHROUGH_TEXT">
       <value>
         <option name="FOREGROUND" value="e2787f" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -2013,7 +2013,7 @@
       <value>
         <option name="FOREGROUND" value="d67e84" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -2021,7 +2021,7 @@
       <value>
         <option name="FOREGROUND" value="cc8188" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -2029,7 +2029,7 @@
       <value>
         <option name="FOREGROUND" value="d67e84" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -2054,7 +2054,7 @@
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CODD_STRIKETHROUGH_TEXT">
       <value>
         <option name="FOREGROUND" value="e2787f" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -2062,7 +2062,7 @@
       <value>
         <option name="FOREGROUND" value="d67e84" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -2070,7 +2070,7 @@
       <value>
         <option name="FOREGROUND" value="cc8188" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -2078,7 +2078,7 @@
       <value>
         <option name="FOREGROUND" value="d67e84" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -2121,14 +2121,14 @@
     </option>
     <option name="MARKDOWN_NAVIGATOR.UNDERLINE">
       <value>
-        <option name="FOREGROUND" value="f07178" />
-        <option name="EFFECT_COLOR" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
+        <option name="EFFECT_COLOR" value="leTag" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.VERBATIM_LANG">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2320,7 +2320,7 @@
     </option>
     <option name="RDOC_DIRECTIVE">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
       </value>
     </option>
     <option name="RDOC_EMAIL">
@@ -2350,7 +2350,7 @@
     </option>
     <option name="REASONML_OPTION">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -2465,7 +2465,7 @@
     </option>
     <option name="ReSharper.ASP_NET_DIRECTIVE_NAME">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2527,7 +2527,7 @@
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_RUN_AT_ATTRIBUTE">
@@ -2537,7 +2537,7 @@
     </option>
     <option name="ReSharper.ASP_NET_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
       </value>
     </option>
     <option name="ReSharper.BRACE_OUTLINE">
@@ -2657,7 +2657,7 @@
     </option>
     <option name="SLIM_TAG">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2669,7 +2669,7 @@
     </option>
     <option name="SLIM_TAG_START">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2833,7 +2833,7 @@
     <option name="XML_TAG_DATA" baseAttributes="TEXT" />
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
       </value>
     </option>
     <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
@@ -2841,7 +2841,7 @@
     <option name="XPATH.XPATH_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="YAML_SCALAR_KEY">
       <value>
-        <option name="FOREGROUND" value="f07178" />
+        <option name="FOREGROUND" value="leTag" />
       </value>
     </option>
     <option name="YAML_SCALAR_LIST">

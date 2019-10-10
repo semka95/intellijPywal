@@ -14,6 +14,9 @@ primaryColor=${c[1]}
 secondaryColor=${c[2]}
 contrastColor=${c[3]}
 accentColor=${c[4]}
+
+# Editor colors
+tagColor=${c[7]}
 attributeColor=${c[5]}
 stringColor=${c[6]}
 
@@ -38,7 +41,8 @@ declare -A exp=( \
 ["leLN"]="${contrastColor}" \
 ["leLN2"]="${accentColor}" \
 ["leString"]="${stringColor}" \
-["leAttribute"]="${attributeColor}"
+["leAttribute"]="${attributeColor}" \
+["leTag"]="${tagColor}" \
 ["leVCSNC"]="999999" \
 )
 
