@@ -1,0 +1,24 @@
+# intellijPywal/config
+# author: Richard Loveless III (RLovelessIII)
+# Configuration file for JetBrains IDE Custom Material Theme Generator
+
+# default: true --> Use pywal colors
+USE_WAL_COLORS=true
+
+# custom color-scheme (only used if Pywal is not installed or if USE_WAL_COLOR_SCHEME is false)
+color[0]=000000
+color[1]=111111
+color[2]=222222
+color[3]=333333
+color[4]=444444
+color[5]=555555
+color[6]=666666
+color[7]=777777
+color[8]=888888
+color[9]=999999
+color[10]=aaaaaa
+color[11]=bbbbbb
+color[12]=cccccc
+color[13]=dddddd
+color[14]=eeeeee
+color[15]=ffffff

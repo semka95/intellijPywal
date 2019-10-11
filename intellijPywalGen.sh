@@ -1,13 +1,23 @@
 #!/usr/bin/env bash
 
-# Attempts to retrieve wals colors
-cache_dir="${HOME}/.cache/wal"
+# Get current directory
+DIR=$(dirname "$0")
+# Source config file
+. "${DIR}"/config
 
-# Import colors
-c=($(< "${cache_dir}/colors"))
-c=("${c[@]//\#}")
+# Decide what colors to use for theme
+if [ "${USE_WAL_COLORS}" == "true" ]; then
+  # Attempts to retrieve wals colors
+  cache_dir="${HOME}/.cache/wal"
+  # Import colors
+  c=($(< "${cache_dir}/colors"))
+  c=("${c[@]//\#}")
+else
+  # Retrieves colors from config file
+  c=("${color[@]}")
+fi
 
-# Set colors based on pywal
+# Theme colors
 backgroundColor=${c[0]}
 foregroundColor=${c[15]}
 primaryColor=${c[1]}
@@ -15,10 +25,10 @@ secondaryColor=${c[2]}
 contrastColor=${c[3]}
 accentColor=${c[4]}
 
-# Editor colors
-attributeColor=${c[7]}
+# Editor/text colors
 stringColor=${c[5]}
 tagColor=${c[6]}
+attributeColor=${c[7]}
 paramColor=${c[8]}
 
 # Associative array for text replacement in template files
@@ -45,15 +55,12 @@ declare -A exp=( \
 ["leAttribute"]="${attributeColor}" \
 ["leTag"]="${tagColor}" \
 ["leParam"]="${paramColor}" \
-["leVCSNC"]="cccccc" \
+["leVCSNC"]="999999" \
 )
 
-# Get current Directory
-DIR=$(dirname "$0")
-
 # Paths to templates
-templatePath=${DIR}/material_scheme_template.xml
-materialTPath=${DIR}/material_template.xml
+templatePath="${DIR}"/material_scheme_template.xml
+materialTPath="${DIR}"/material_template.xml
 
 # Read input param
 ijConfigPath=$1
@@ -70,7 +77,7 @@ cp -f "$materialTPath" "$ijMPath"
 OS=$(uname)
 
 # Replace placeholders for colors
-if [ "${OS}" == 'Darwin' ]; then
+if [ "${OS}" == "Darwin" ]; then
   for key in "${!exp[@]}"
   do
     text_replace="s/$key/${exp[$key]}/g"
