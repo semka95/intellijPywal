@@ -3,15 +3,16 @@
 # Get current directory
 DIR=$(dirname "$0")
 # Source config file
-. "${DIR}"/config
+. "${DIR}/config"
+
+# Pywal cache directory
+cache_dir="${HOME}/.cache/wal"
 
 # Decide what colors to use for theme
-if [ "${USE_WAL_COLORS}" == "true" ]; then
-  # Attempts to retrieve wals colors
-  cache_dir="${HOME}/.cache/wal"
-  # Import colors
-  c=($(< "${cache_dir}/colors"))
-  c=("${c[@]//\#}")
+if [[ "${USE_WAL_COLORS}" == "TRUE" && -d "${cache_dir}" ]]; then
+    # Import colors
+    c=($(< "${cache_dir}/colors"))
+    c=("${c[@]//\#}")
 else
   # Retrieves colors from config file
   c=("${color[@]}")
@@ -59,15 +60,24 @@ declare -A exp=( \
 )
 
 # Paths to templates
-templatePath="${DIR}"/material_scheme_template.xml
-materialTPath="${DIR}"/material_template.xml
+templatePath="${DIR}/material_scheme_template.xml"
+materialTPath="${DIR}/material_template.xml"
 
 # Read input param
-ijConfigPath=$1
+if [[ -d "${1}" ]]; then
+  ijConfigPath=${1}
+else
+  echo "JetBrains IDE config path (${1}) NOT FOUND" && exit 1
+fi
 
 # Paths to IDE
 ijCfPath=$ijConfigPath/colors/material-pywal.icls
 ijMPath=$ijConfigPath/options/material_custom_theme.xml
+
+# Create colors directory if directory not found
+if [[ ! -d ${ijConfigPath}/colors ]]; then
+  mkdir "${ijConfigPath}"/colors
+fi
 
 # Override existing config
 cp -f "$templatePath" "$ijCfPath"
