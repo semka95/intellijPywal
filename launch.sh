@@ -1,21 +1,14 @@
 #!/usr/bin/env bash
 
-## intelliJPywal/launch.sh
-## author: Richard Loveless III (RLovelessIII)
-## description: launch script for IntelliJPywal
+# intelliJPywal/launch.sh
+# @author: Richard Loveless III (RLovelessIII)
+# @description: launch script for IntelliJPywal
 
 # JetBrains IDE's to search for
 IDE=( "IntelliJIdea" "PyCharm" "WebStorm" )
 
 # Get current Operating System
 OS=$(uname)
-
-###############################################################
-#  usr_conf_dir  <-- Parent folder to search for directories  #
-#  ide_name      <-- Name of JB ide from $IDE array           #
-#  ide_dir       <-- Path to IDE directory                    #
-#  ide_conf_dir  <-- Path to IDE config directory             #
-###############################################################
 
 if [[ "${OS}" == "Darwin" ]]; then
   # Default location for JB IDE settings/configs on MACOS
@@ -27,16 +20,21 @@ fi
 
 for i in "${IDE[@]}"
     do
+      # Assign current IDE from array
       ide_name="$i"
-      ide_name=".$i" # Prepend a '.' to search for hidden directories on Linux
+
       # -maxdepth  <-- Default: 1       -      Only searches through first layer
       # -type      <-- Default: d       -      Searches directories only
-      # -name      <-- Default: ${ide_name}* - * is used as a wildcard since JB uses the version number while naming the config directory
-      ide_dir=$(find "${usr_conf_dir}" -maxdepth 1 -type d -name "${ide_name}*")
+      # -name      <-- Default: *${ide_name}* - * is used as a wildcard since JB uses the version number while naming the config directory
+      ide_dir=$(find "${usr_conf_dir}" -maxdepth 1 -type d -name "*${ide_name}*")
+
       # Add the directory (if found) to the array
       if [[ -d "${ide_dir}" ]]; then
         ide_conf_dir+=( "${ide_dir}" )
+      else
+        echo "Error: JetBrains IDE config path for \"${ide_name}\" NOT FOUND"
       fi
+
     done
 
 # Get current directory

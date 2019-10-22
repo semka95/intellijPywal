@@ -64,20 +64,22 @@ templatePath="${DIR}/material_scheme_template.xml"
 materialTPath="${DIR}/material_template.xml"
 
 # Read input param
-if [[ -d "${1}" ]]; then
-  ijConfigPath=${1}
+if [[ -d "${1}/config" ]]; then
+  ijConfigPath="${1}/config"
+elif [[ -d "${1}" ]]; then
+  ijConfigPath="${1}"
 else
-  echo "JetBrains IDE config path (${1}) NOT FOUND" && exit 1
+  echo "Error: JetBrains IDE config path (${1}) NOT FOUND" && exit 1
 fi
-
-# Paths to IDE
-ijCfPath=$ijConfigPath/colors/material-pywal.icls
-ijMPath=$ijConfigPath/options/material_custom_theme.xml
 
 # Create colors directory if directory not found
 if [[ ! -d ${ijConfigPath}/colors ]]; then
   mkdir "${ijConfigPath}"/colors
 fi
+
+# Paths to IDE theme files
+ijCfPath="${ijConfigPath}/colors/material-pywal.icls"
+ijMPath="${ijConfigPath}/options/material_custom_theme.xml"
 
 # Override existing config
 cp -f "$templatePath" "$ijCfPath"
