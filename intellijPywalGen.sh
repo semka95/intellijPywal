@@ -2,14 +2,41 @@
 
 # Get current directory
 DIR=$(dirname "$0")
+
+# Paths to templates
+templatePath="${DIR}/material_scheme_template.xml"
+materialTPath="${DIR}/material_template.xml"
+
+# Read input param
+if [[ -d "${1}/config" ]]; then
+  ijConfigPath="${1}/config"
+elif [[ -d "${1}" ]]; then
+  ijConfigPath="${1}"
+else
+  echo "Error: JetBrains IDE config path (${1}) NOT FOUND" && exit 1
+fi
+
+# Create colors directory if directory not found
+if [[ ! -d ${ijConfigPath}/colors ]]; then
+  mkdir "${ijConfigPath}"/colors
+fi
+
+# Paths to IDE theme files
+ijCfPath="${ijConfigPath}/colors/material-pywal.icls"
+ijMPath="${ijConfigPath}/options/material_custom_theme.xml"
+
+# Override existing config
+cp -f "$templatePath" "$ijCfPath"
+cp -f "$materialTPath" "$ijMPath"
+
 # Source config file
 . "${DIR}/config"
 
-# Pywal cache directory
-cache_dir="${HOME}/.cache/wal"
+# Color-scheme directory
+wal_cache_dir="${HOME}/.cache/wal"
 
 # Decide what colors to use for theme
-if [[ "${USE_WAL_COLORS}" == "TRUE" && -d "${cache_dir}" ]]; then
+if [[ "${USE_WAL_COLORS}" == "true" && -d ${wal_cache_dir} ]]; then
     # Import colors
     c=($(< "${cache_dir}/colors"))
     c=("${c[@]//\#}")
@@ -18,7 +45,11 @@ else
   c=("${color[@]}")
 fi
 
-# Theme colors
+########################
+## THEME COLOR-SCHEME ##
+########################
+
+# Main window colors
 backgroundColor=${c[0]}
 foregroundColor=${c[15]}
 primaryColor=${c[1]}
@@ -58,32 +89,6 @@ declare -A exp=( \
 ["leParam"]="${paramColor}" \
 ["leVCSNC"]="999999" \
 )
-
-# Paths to templates
-templatePath="${DIR}/material_scheme_template.xml"
-materialTPath="${DIR}/material_template.xml"
-
-# Read input param
-if [[ -d "${1}/config" ]]; then
-  ijConfigPath="${1}/config"
-elif [[ -d "${1}" ]]; then
-  ijConfigPath="${1}"
-else
-  echo "Error: JetBrains IDE config path (${1}) NOT FOUND" && exit 1
-fi
-
-# Create colors directory if directory not found
-if [[ ! -d ${ijConfigPath}/colors ]]; then
-  mkdir "${ijConfigPath}"/colors
-fi
-
-# Paths to IDE theme files
-ijCfPath="${ijConfigPath}/colors/material-pywal.icls"
-ijMPath="${ijConfigPath}/options/material_custom_theme.xml"
-
-# Override existing config
-cp -f "$templatePath" "$ijCfPath"
-cp -f "$materialTPath" "$ijMPath"
 
 # Get current OS
 OS=$(uname)

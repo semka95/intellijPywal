@@ -3,7 +3,7 @@
 # Configuration file for JetBrains IDE Custom Material Theme Generator
 
 # default: true --> Use pywal colors
-USE_WAL_COLORS=TRUE
+USE_WAL_COLORS=true
 
 # custom color-scheme (only used if Pywal is not installed or if USE_WAL_COLOR_SCHEME is false)
 color[0]=000000
