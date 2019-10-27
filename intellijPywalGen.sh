@@ -63,16 +63,20 @@ tagColor=${c[6]}
 attributeColor=${c[7]}
 paramColor=${c[8]}
 
+# Independent colors - Set in config file
+disabledColor=${disabled_color}
+fileNotChangedColor=${file_not_changed_color}
+
 # Associative array for text replacement in template files
 declare -A exp=( \
 ["leBG"]="${backgroundColor}" \
 ["leFG"]="${foregroundColor}" \
 ["leTXT"]="${foregroundColor}" \
 ["leSFG"]="${foregroundColor}" \
-["leSBG"]="${foregroundColor}" \
+["leSBG"]="${primaryColor}" \
 ["leActive"]="${primaryColor}" \
 ["leBG2"]="${secondaryColor}" \
-["leDisabled"]="${foregroundColor}" \
+["leDisabled"]="${disabledColor}" \
 ["leContrast"]="${contrastColor}" \
 ["leTblSel"]="${primaryColor}" \
 ["leSBC"]="${primaryColor}" \
@@ -87,7 +91,7 @@ declare -A exp=( \
 ["leAttribute"]="${attributeColor}" \
 ["leTag"]="${tagColor}" \
 ["leParam"]="${paramColor}" \
-["leVCSNC"]="999999" \
+["leVCSNC"]="${fileNotChangedColor}" \
 )
 
 # Get current OS

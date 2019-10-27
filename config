@@ -2,6 +2,10 @@
 # author: Richard Loveless III (RLovelessIII)
 # Configuration file for JetBrains IDE Custom Material Theme Generator
 
+# theme independent colors
+disabled_color=999999
+file_not_changed_color=999999
+
 # default: true --> Use pywal colors
 USE_WAL_COLORS=true
 
