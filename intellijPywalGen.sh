@@ -38,7 +38,7 @@ wal_cache_dir="${HOME}/.cache/wal"
 # Decide what colors to use for theme
 if [[ "${USE_WAL_COLORS}" == "true" && -d ${wal_cache_dir} ]]; then
     # Import colors
-    c=($(< "${cache_dir}/colors"))
+    c=($(< "${wal_cache_dir}/colors"))
     c=("${c[@]//\#}")
 else
   # Retrieves colors from config file
@@ -69,7 +69,7 @@ declare -A exp=( \
 ["leFG"]="${foregroundColor}" \
 ["leTXT"]="${foregroundColor}" \
 ["leSFG"]="${foregroundColor}" \
-["leSBG"]="${backgroundColor}" \
+["leSBG"]="${foregroundColor}" \
 ["leActive"]="${primaryColor}" \
 ["leBG2"]="${secondaryColor}" \
 ["leDisabled"]="${foregroundColor}" \
