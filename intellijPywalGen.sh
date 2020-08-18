@@ -91,7 +91,23 @@ declare -A exp=( \
 ["leAttribute"]="${attributeColor}" \
 ["leTag"]="${tagColor}" \
 ["leParam"]="${paramColor}" \
-["leVCSNC"]="${fileNotChangedColor}"
+["leVCSNC"]="${fileNotChangedColor}" \
+["c00"]="${c[0]}" \
+["c01"]="${c[1]}" \
+["c02"]="${c[2]}" \
+["c03"]="${c[3]}" \
+["c04"]="${c[4]}" \
+["c05"]="${c[5]}" \
+["c06"]="${c[6]}" \
+["c07"]="${c[7]}" \
+["c08"]="${c[8]}" \
+["c09"]="${c[9]}" \
+["c10"]="${c[10]}" \
+["c11"]="${c[11]}" \
+["c12"]="${c[12]}" \
+["c13"]="${c[13]}" \
+["c14"]="${c[14]}" \
+["c15"]="${c[15]}"
 )
 
 # Get current OS
